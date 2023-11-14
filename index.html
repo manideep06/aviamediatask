@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Edit Shop Name</title>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+</head>
+<body>
+  
+<form id="shopNameForm">
+    <label for="shopName">Shop Name:</label>
+    <input type="text" id="shopName" class="existing-ribblr-class" name="shopName" required>
+    <button type="button" id="updateShopName">Update</button>
+</form>
+
+<p id="updatedShopName">Current Shop Name: <span id="displayShopName"> Shop Name</span></p>
+<?php include 'get_shop_name.php'; ?>
+<script src="script.js"></script>
+
+</body>
+</html>
